@@ -3310,6 +3310,7 @@ PRODUCT_PACKAGES += \
     libvidhance_stabilizer \
     vendor.egistec.hardware.fingerprint@4.0 \
     vendor.focaltech.fingerprint@1.0 \
+    capsense_reset \
     cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-focalservice \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
