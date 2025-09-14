@@ -4057,6 +4057,32 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "egis_ident",
+    owner: "motorola",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/egis_ident",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "thermal-engine",
     owner: "motorola",
     target: {

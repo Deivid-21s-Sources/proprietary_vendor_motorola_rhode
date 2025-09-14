@@ -3314,4 +3314,5 @@ PRODUCT_PACKAGES += \
     cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-focalservice \
     android.hardware.biometrics.fingerprint@2.1-service-ets \
+    egis_ident \
     thermal-engine
